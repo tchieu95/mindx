@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Covid-19-Tracker' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Covid-19-Tracker
+
+  pod 'SnapKit'
+  pod 'Alamofire'
+
+  target 'Covid-19-TrackerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Covid-19-TrackerUITests' do
+    # Pods for testing
+  end
+
+end
